@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10px;
+    z-index: 1000;
+    position: fixed;
+    background-color:rgb(59, 175, 204);
+    transform: rotate(-0.5deg);
+}
+header:hover{
+    transform: rotate(1deg);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+     font-family: 'Comic Sans MS', cursive;
+    font-size: 25px;
+    
+}
+
+.profil {
+    width: 60px;
+}
+
+
+.titre {
+    margin: 0;
+}
+
+nav a {
+    margin-left: 75px;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 25px;
+    
+}
+
+nav a:hover {
+    color:rgb(247, 247, 243);
+    transform: rotate(1deg)
+}
+
+body{
+    background-color: rgb(185, 239, 250);
+}
+
+.card_presentation{
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 200px;
+    padding: 60px;
+    width: 1000px;
+    transform: rotate(-1deg); 
+    transition: transform 0.3s;
+    overflow: hidden;
+
+}
+.card_presentation:hover{
+    transform: rotate(2deg);
+}
+
+
+.card_content{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.blue{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    transform: rotate(-2deg);
+}
+.mail,.github{
+    width: 80px;
+    height: auto;
+}
+
+
+.card_Competences{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.card_Competences_exo{
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 60px;
+    padding: 60px;
+    width: 1000px;
+    transform: rotate(-1deg); 
+    transition: transform 0.3s;
+    overflow: hidden;
+
+}
+.card_Competences_exo:hover{
+    transform: rotate(2deg);
+}
+.java,.python,.SQL,.PostgreSQL,.Oracle,.html-css,.android,.godot{
+    width: 50px;
+    height: auto;
+}

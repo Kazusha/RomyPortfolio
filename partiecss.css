@@ -8,7 +8,7 @@ header {
     padding: 10px 10px;
     z-index: 1000;
     position: fixed;
-    background-color:rgb(59, 175, 204);
+    background-color:#F97316;
     transform: rotate(-0.5deg);
 }
 header:hover{
@@ -49,11 +49,11 @@ nav a:hover {
 }
 
 body{
-    background-color: rgb(185, 239, 250);
+    background-color:#451A03;
 }
 
 .card_presentation{
-    background: white;
+    background: #FEF7ED;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
     font-family: 'Comic Sans MS', cursive;
@@ -75,7 +75,7 @@ body{
     align-items: flex-start;
     gap: 20px;
 }
-.blue{
+.blue,.edward{
     width: 200px;
     height: auto;
     border-radius: 15px;
@@ -93,7 +93,7 @@ body{
     padding: 20px;
 }
 .card_Competences_exo{
-    background: white;
+    background: #FEF7ED;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
     font-family: 'Comic Sans MS', cursive;
@@ -108,7 +108,70 @@ body{
 .card_Competences_exo:hover{
     transform: rotate(2deg);
 }
-.java,.python,.SQL,.PostgreSQL,.Oracle,.html-css,.android,.godot{
+.java,.python,.SQL,.PostgreSQL,.Oracle,.html-css,.android,.godot,.spotify,.soundcloud,.cinema,.jeux,.foot{
     width: 50px;
     height: auto;
+}
+.card_project{
+    background: #FEF7ED;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 60px;
+    padding: 60px;
+    width: 1000px;
+    transform: rotate(-1deg); 
+    transition: transform 0.3s;
+    overflow: hidden;
+
+}
+.card_project:hover{
+    transform: rotate(2deg);
+}
+.card_passion{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.passion{
+    background: #FEF7ED;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    font-family: 'Comic Sans Ms', cursive;
+    margin-top: 60px;
+    padding: 60px;
+    width: 1000px;
+    transform: rotate(-1deg);
+    transition: transform 0.3s;
+    overflow: auto;
+}
+.passion:hover{
+
+    transform: rotate(2deg);
+}
+.jeux,.anime,.basket{
+    width: 60px;
+    height: auto;
+}
+.citation{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.citation_text{
+      background: #FEF7ED;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 60px;
+    padding: 60px;
+    width: 1000px;
+    transition: transform 0.3s;
+    overflow: hidden;
+
+}
+.edward{
+    width: 200px;
+    height: auto;
+    transform: rotate(-2deg);
 }
